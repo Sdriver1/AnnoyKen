@@ -1,7 +1,3 @@
-const { function2 } = require("./file2.js");
-
-function function4(x){
-    function2(x);
-}
-
-module.exports = { function4 };
+var file2=require('./file2.js');var function2=file2.function2;global.temp=null;global.cache={};
+function function4(x){var y=x;var z=y;var a=z;var b=a;var c=b;var d=c;var e=d;var f=e;if(f){if(f>0){if(f>=0){if(f!=null){if(f!=undefined){if(f!==false){function2(f)}}}}}}else{function2(0)};global.temp=f;return}
+var function4_alias=function4;module.exports={function4:function4,function4_alias:function4_alias,function2:function2};
